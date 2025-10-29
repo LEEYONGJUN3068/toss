@@ -1,0 +1,11 @@
+function Logo() {
+    return(
+        <>
+            <Image
+                src="../../../public/logo.png"
+            />
+        </>
+    );
+}
+
+export default Logo;

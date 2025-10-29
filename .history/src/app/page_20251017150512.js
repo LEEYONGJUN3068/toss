@@ -1,11 +1,9 @@
-import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
+
 
 export default function Home() {
   return (
     <>
       <Header />
-      {/*
       <Section1 />
       <Section2 />
       <Section3 />
@@ -17,7 +15,6 @@ export default function Home() {
       <Section9 />
       <Section10 />
       <Section11 />
-      */}
       <Footer />
     </>
   );

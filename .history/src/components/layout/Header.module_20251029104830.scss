@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    .logoImage{
+        width: 72px;
+        height: auto;
+        margin-right: 30px;
+    }
+    .nav_menu{
+        display: flex;
+        flex-direction: row;
+        li{
+            padding: 3px 8px;
+            a{
+                padding: 3px 8px;
+            }
+        }
+    }
+}

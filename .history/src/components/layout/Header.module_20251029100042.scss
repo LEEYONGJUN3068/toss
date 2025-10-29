@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    .logoImage{
+        width: 72px;
+        height: 20px;
+    }
+    .nav_menu{
+        display: flex;
+        flex-direction: row;
+        li{
+            padding: 3px 8px;
+        }
+    }
+}

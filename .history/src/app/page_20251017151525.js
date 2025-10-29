@@ -1,5 +1,4 @@
-import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
+import Header from ../Header.js;
 
 export default function Home() {
   return (
