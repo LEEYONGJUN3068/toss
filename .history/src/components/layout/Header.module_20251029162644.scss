@@ -1,8 +1,7 @@
 .nav{
-    position: relative;
-    left: 50%;
+    left: 0;
     top: 0;
-    transform: translateX(-50%);
+    transform: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -10,6 +9,7 @@
     width: 90%;
     max-width: 1140px;
     height: 60px;
+    margin: 0 auto;
     .logoImage{
         width: 72px;
         height: auto;

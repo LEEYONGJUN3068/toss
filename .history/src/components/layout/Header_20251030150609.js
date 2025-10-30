@@ -1,5 +1,3 @@
-"use client";
-
 import Logo from '../icons/Logo';
 import styles from './Header.module.scss';
 import { useState, useEffect } from 'react';
@@ -28,7 +26,7 @@ function Header(){
 
     return(
         <header>
-            <div className={`${styles.nav} ${isActive ? 'active' : ''}`}>
+            <div className={styles.nav && isActive ? 'active' : ''}>
                 <Logo className={styles.logoImage} />
                 <ul className={styles.nav_menu}>
                     <li><a href="">회사 소개</a></li>

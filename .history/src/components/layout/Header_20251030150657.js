@@ -1,5 +1,3 @@
-"use client";
-
 import Logo from '../icons/Logo';
 import styles from './Header.module.scss';
 import { useState, useEffect } from 'react';

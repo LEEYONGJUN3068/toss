@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    .logoImage{
+        width: 72px;
+        height: auto;
+        margin-right: 30px;
+    }
+    .nav_menu{
+        display: flex;
+        flex-direction: row;
+        li{
+            padding: 0px 8px;
+            border-radius: 5px;
+            overflow: hidden;
+            a{
+                padding: 12px 10px;
+                &:hover{
+                    background: rgba(2, 32, 71, 0.5);
+                }
+            } 
+        }
+    }
+}
