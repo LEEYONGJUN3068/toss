@@ -10,14 +10,23 @@ function HeroSection(){
     const wrapperRef = useRef(null);
 
     useEffect(() => {
+    
+        // 4. GSAP 애니메이션 실행
+        // .to( [타겟], {애니메이션 속성} )
         gsap.to(
-          wrapperRef.current,
+          wrapperRef.current, // 타겟: ref로 참조한 div 요소
           {
+            // ----- 이것이 3초 딜레이 -----
             delay: 0.1, 
+            // ---------------------------
+            
+            // 애니메이션 최종 상태
             opacity: 1,
-            y: 0,
-            duration: 2,
-            ease: 'power3.out',
+            y: 0, // (선택) 아래에서 위로 올라오는 효과 (y: 0이 최종 위치)
+            
+            // 애니메이션 설정
+            duration: 3, // 1초 동안 애니메이션 실행
+            ease: 'power3.out', // 부드러운 시작과 느려지는 끝
           }
         );
     
