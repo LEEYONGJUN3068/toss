@@ -3,7 +3,7 @@ import styles from "../main/HeroSection.module.scss";
 
 function HeroSection(){
     return(
-        <>
+        <HeroSection>
             <Image 
                 src="/new_main.png"
                 alt="메인 배너" 
@@ -16,7 +16,7 @@ function HeroSection(){
                 금융의 모든 것<br/>
                 토스에서 쉽고 간편하게
             </p>
-        </>
+        </HeroSection>
     )
 }
 

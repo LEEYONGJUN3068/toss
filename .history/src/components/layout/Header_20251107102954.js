@@ -17,7 +17,7 @@ function Header() {
       if (scrollY > 50 && !isActive) {
         setIsActive(true);
         gsap.to(headerRef.current, {
-          duration: 0.5,
+          duration: 0.6,
           y: 0,
           backgroundColor: "rgba(255,255,255,0.8)",
           boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
@@ -26,7 +26,7 @@ function Header() {
       } else if (scrollY <= 50 && isActive) {
         setIsActive(false);
         gsap.to(headerRef.current, {
-          duration: 0.5,
+          duration: 0.6,
           y: -20,
           backgroundColor: "rgba(255,255,255,0)",
           boxShadow: "0 0 0 rgba(0,0,0,0)",
@@ -54,9 +54,9 @@ function Header() {
             <li><a href="">토스인증서</a></li>
             <li><a href="">채용</a></li>
           </ul>
-          <ul className={styles.nation}>
-            <li>KOR</li>
-            <li>ENG</li>
+          <ul>
+            <li>KR</li>
+            <li>US</li>
           </ul>
         </div>
       </header>

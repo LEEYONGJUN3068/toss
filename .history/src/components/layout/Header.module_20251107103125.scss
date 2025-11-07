@@ -1,19 +1,16 @@
 .nav {
     position: fixed;
-    top: 20px;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 90%;
     max-width: 1140px;
     height: 60px;
     background: rgba(255, 255, 255, 0);
     z-index: 1000;
-    padding: 0 5%;
-    box-sizing: border-box;
-    border-radius: 20px;
   
     .logoImage {
       width: 72px;
@@ -29,7 +26,6 @@
         a {
           padding: 12px 10px;
           font-size: 15px;
-          font-weight: 500;
           transition: all 0.3s ease;
           &:hover {
             background: rgba(2, 32, 71, 0.05);
@@ -39,20 +35,9 @@
       }
     }
 
-    ul.nation{
+    .nation{
         display: flex;
         flex-direction: row;
-        li{
-            &:after{
-                content: "|";
-                margin: 0 5px;
-            }
-            &:last-child{
-                &:after{
-                    content: "";
-                }
-            }
-        }
     }
   }
   

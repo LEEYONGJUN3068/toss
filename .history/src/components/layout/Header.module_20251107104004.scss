@@ -47,11 +47,6 @@
                 content: "|";
                 margin: 0 5px;
             }
-            &:last-child{
-                &:after{
-                    content: "";
-                }
-            }
         }
     }
   }

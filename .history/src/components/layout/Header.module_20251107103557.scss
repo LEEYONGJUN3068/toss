@@ -39,20 +39,9 @@
       }
     }
 
-    ul.nation{
+    .nation{
         display: flex;
         flex-direction: row;
-        li{
-            &:after{
-                content: "|";
-                margin: 0 5px;
-            }
-            &:last-child{
-                &:after{
-                    content: "";
-                }
-            }
-        }
     }
   }
   
