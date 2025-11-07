@@ -17,7 +17,7 @@ function HeroSection(){
           wrapperRef.current, // 타겟: ref로 참조한 div 요소
           {
             // ----- 이것이 3초 딜레이 -----
-            delay: 0.1, 
+            delay: 0.5, 
             // ---------------------------
             
             // 애니메이션 최종 상태

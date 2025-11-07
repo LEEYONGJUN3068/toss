@@ -30,13 +30,10 @@
         flex-direction: column;
         align-items: center;
         z-index: 1;
-        opacity: 0;
         .title{
             font-size: 66px;
             font-weight: 700;
-            color: #000;
             text-align: center;
-            margin-bottom: 50px;
         }
         .appDownload{
                 display: flex;
@@ -44,27 +41,10 @@
             .iosLink{
                 display: flex;
                 flex-direction: row;
-                background-color: rgba(0, 12, 30, 0.8);
-                color: rgb(255, 255, 255);
-                font-size: 17px;
-                padding: 11px 22px;
-                border-radius: 5px;
-                margin-right: 10px;
-                img{
-                    margin-right: 6px;
-                }
             }
             .aosLink{
                 display: flex;
                 flex-direction: row;
-                background-color: rgba(0, 12, 30, 0.8);
-                color: rgb(255, 255, 255);
-                font-size: 17px;
-                padding: 11px 22px;
-                border-radius: 5px;
-                img{
-                    margin-right: 6px;
-                }
             }
         }
     }

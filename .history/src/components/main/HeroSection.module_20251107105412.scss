@@ -1,0 +1,9 @@
+.heroSection{
+    max-width: 100%;
+    .banner{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100vh;
+    }
+}

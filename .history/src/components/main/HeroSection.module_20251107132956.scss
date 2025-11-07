@@ -1,0 +1,12 @@
+.heroSection{
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    .banner{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100vh;
+        max-width: none;
+    }
+}
