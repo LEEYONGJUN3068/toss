@@ -4,9 +4,12 @@
     height: 100vh;
     overflow: hidden;
     .banner{
-        width: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
         height: 100%;
-        object-fit: cover;
+        max-width: none;
     }
     .gradient{
         position: absolute;
@@ -41,6 +44,7 @@
             .iosLink{
                 display: flex;
                 flex-direction: row;
+                background-color: rgba(0, 12, 30, 0.8);
                 color: rgb(255, 255, 255);
                 font-size: 17px;
                 padding: 11px 22px;
@@ -53,6 +57,7 @@
             .aosLink{
                 display: flex;
                 flex-direction: row;
+                background-color: rgba(0, 12, 30, 0.8);
                 color: rgb(255, 255, 255);
                 font-size: 17px;
                 padding: 11px 22px;

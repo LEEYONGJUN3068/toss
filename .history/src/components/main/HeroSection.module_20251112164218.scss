@@ -4,9 +4,12 @@
     height: 100vh;
     overflow: hidden;
     .banner{
-        width: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
         height: 100%;
-        object-fit: cover;
+        max-width: none;
     }
     .gradient{
         position: absolute;

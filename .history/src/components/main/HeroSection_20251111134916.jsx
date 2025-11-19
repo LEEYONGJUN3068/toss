@@ -40,11 +40,7 @@ function HeroSection(){
                     토스에서 쉽고 간편하게
                 </p>
                 <div className={styles.appDownload}>
-                    <button 
-                        type='button' 
-                        onClick={() => window.open('https://apps.apple.com/kr/app/%ED%86%A0%EC%8A%A4/id839333328', '_blank')}
-                        className={styles.iosLink} 
-                    >
+                    <a href="https://apps.apple.com/kr/app/%ED%86%A0%EC%8A%A4/id839333328" className={styles.iosLink} target="_blank">
                         <Image 
                             src="/images/home/applekorea.png" 
                             alt="애플스토어"
@@ -54,12 +50,8 @@ function HeroSection(){
                             priority
                         />
                         <p>App Store</p>
-                    </button>
-                    <button 
-                        type='button' 
-                        onClick={() => window.open('https://play.google.com/store/apps/details?id=viva.republica.toss', '_blank')}
-                        className={styles.aosLink} 
-                    >
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=viva.republica.toss" className={styles.aosLink} target="_blank">
                         <Image 
                             src="/images/home/googleplay.png" 
                             alt="구글플레이"
@@ -69,7 +61,7 @@ function HeroSection(){
                             priority
                         />
                         <p>Google Play</p>
-                    </button>
+                    </a>
                 </div>
             </div>
             <div className={styles.arrow}></div>

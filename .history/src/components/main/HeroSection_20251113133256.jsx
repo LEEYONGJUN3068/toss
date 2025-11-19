@@ -55,11 +55,7 @@ function HeroSection(){
                         />
                         <p>App Store</p>
                     </button>
-                    <button 
-                        type='button' 
-                        onClick={() => window.open('https://play.google.com/store/apps/details?id=viva.republica.toss', '_blank')}
-                        className={styles.aosLink} 
-                    >
+                    <button type='button' onClick="location.href='https://play.google.com/store/apps/details?id=viva.republica.toss'" className={styles.aosLink} target="_blank">
                         <Image 
                             src="/images/home/googleplay.png" 
                             alt="구글플레이"

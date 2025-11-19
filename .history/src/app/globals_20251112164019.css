@@ -25,10 +25,6 @@ body {
   color: rgb(51, 61, 75);
   font-family: 'Apple SD Gothic Neo', Arial, Helvetica, sans-serif;
 }
-button{
-  background-color: rgba(0, 12, 30, 0.8);
-  cursor: pointer;
-}
 
 a:hover{color: #0056b3;}
-button:hover{background-color:rgba(78, 89, 104, 1);}
+button:hover{background-color:rgb(78, 89, 104);}

@@ -57,7 +57,7 @@ function HeroSection(){
                     </button>
                     <button 
                         type='button' 
-                        onClick={() => window.open('https://play.google.com/store/apps/details?id=viva.republica.toss', '_blank')}
+                        onClick={() => window.open('https://play.google.com/store/apps/details?id=viva.republica.toss')}
                         className={styles.aosLink} 
                     >
                         <Image 
